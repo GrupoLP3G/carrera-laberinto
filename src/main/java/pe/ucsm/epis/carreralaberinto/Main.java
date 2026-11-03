@@ -8,6 +8,7 @@ public class Main {
             JFrame menu=new JFrame("Carrera y laberinto");
             menu.setSize(800,600);
             menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            menu.setLocationRelativeTo(null);
             menu.setVisible(true);
         });   
     } 
